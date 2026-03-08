@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Feathers&Felage</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+<style>
+    div{
+        background-color: blanchedalmond;
+    }
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: bisque;
+        }
+
+        h1{
+            text-align: center;
+            color: black;
+            margin-bottom: 30px;
+            border-bottom: 1px soild black;
+        }
+
+        .pets{
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+
+        .pic{
+            background-color: rgb(221, 211, 207);
+            border-radius: 12px;
+            width: 220px;
+            padding: 12px;
+            text-align: center;
+        }
+
+        img{
+            height: 350px;
+            width: 100%;
+            object-fit: cover;
+        }
+
+        .btn-secondary{
+          font-family: Arial, Helvetica, sans-serif;
+          background-color: bisque;
+          color:black;
+          
+        }
+
+        .dropdown-menu{
+          font-family: Arial, Helvetica, sans-serif;
+          background-color: wheat
+          color:black
+          text-align: center;
+        }
+
+        .carousel-item{
+          height: 550px;
+        } 
+        .carousel-item img{
+          height: 100%; 
+          width: 100%;
+          object-fit: cover;
+        }
+
+.btn-secondary.dropdown-toggle {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(238, 232, 230);
+    color: black;
+    border: none;         
+    outline: none; 
+  }
+
+  div{
+            background-color: rgb(252, 247, 241);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(252, 247, 241);
+        }
+        .sign{
+            justify-content: center;
+            gap: 30px;
+        }
+        .mb-3{
+            text-align: left;
+            padding-left: 50px;
+        }
+    .ty{
+      text-align: center;
+      background-color: rgb(252, 247, 241);
+      font-family: Arial, Helvetica, sans-serif;        
+      size: 550px;
+    }
+</style>
+
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+    <a class="navbar-brand" href="#">Feathers&Felage</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Accessories</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Foods & Treats</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pet care</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pet Parent Accessories</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Festive Sale</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Get to Know Us
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Contact Us</a></li>
+            <li><a class="dropdown-item" href="#">Branches</a></li>
+            <li><a class="dropdown-item" href="#">FQAs</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="You are Looking for?" aria-label="Search"/>
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<div id="carouselExampleFade" class="carousel slide carousel-fade">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://images.unsplash.com/photo-1589924749359-9697080c3577?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="https://images.pexels.com/photos/7726093/pexels-photo-7726093.jpeg" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="./pexels-zander_world14-533878492-16481901.jpg" class="d-block w-100">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<h1>
+
+</h1>
+
+<br>
+
+<h1>Available For Pets Like</h1>
+
+    <div class="pets">
+
+        <div class="pic">
+        <img src="https://images.unsplash.com/photo-1759614697353-3f2178f1d6b1?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+        <h4>Birds</h4>
+        <div class="btn-group">
+  <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Pick a breed
+  </button>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="#">Budgee</a></li>
+    <li><a class="dropdown-item" href="#">Cockatiel</a></li>
+    <li><a class="dropdown-item" href="#">Conures</a></li>
+    <li><a class="dropdown-item" href="#">Finches</a></li>
+  </ul>
+</div>
+        </div>
+
+        <div class="pic">
+        <img src="https://images.unsplash.com/photo-1592194996308-7b43878e84a6?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+        <h4>Cats</h4>
+         <div class="btn-group">
+  <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Pick a breed
+  </button>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="#">Persian cat</a></li>
+    <li><a class="dropdown-item" href="#">American Shorthair</a></li>
+    <li><a class="dropdown-item" href="#">Birman</a></li>
+    <li><a class="dropdown-item" href="#">Scottish Fold</a></li>
+    <li><a class="dropdown-item" href="#">Ragdoll</a></li>
+  </ul>
+</div>
+        </div>
+
+        <div class="pic">
+        <img src="https://images.unsplash.com/photo-1537151769678-eb003fb3a153?q=80&w=386&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+        <h4>Dogs</h4>
+        <div class="btn-group">
+  <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Pick a breed
+  </button>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="#">Pug</a></li>
+    <li><a class="dropdown-item" href="#">Golden Retriever</a></li>
+    <li><a class="dropdown-item" href="#">Siberian Husky</a></li>
+    <li><a class="dropdown-item" href="#">Beagle</a></li>
+    <li><a class="dropdown-item" href="#">Pembroke</a></li>
+  </ul>
+</div>
+        </div>
+
+        <div class="pic">
+        <img  src="https://images.unsplash.com/photo-1763345181042-87ade714d7ab?q=80&w=397&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+        <h4>Fishes</h4>
+        <div class="btn-group">
+  <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Pick a breed
+  </button>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="#">Betta</a></li>
+    <li><a class="dropdown-item" href="#">Guppies</a></li>
+    <li><a class="dropdown-item" href="#">Platies</a></li>
+    <li><a class="dropdown-item" href="#">Neon Tetras</a></li>
+  </ul>
+</div>
+        </div>
+
+        <div class="pic">
+        <img src="https://images.unsplash.com/photo-1675069479235-c786d07efb45?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+        <h4>Small Rodents</h4>
+        <div class="btn-group">
+  <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Pick a breed
+  </button>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="#">Sugar glider</a></li>
+    <li><a class="dropdown-item" href="#">Gerbillinae</a></li>
+    <li><a class="dropdown-item" href="#">Hamster</a></li>
+    <li><a class="dropdown-item" href="#">Fancy mouse</a></li>
+    <li><a class="dropdown-item" href="#">Guinea pig</a></li>
+  </ul>
+</div>
+        </div>
+
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="ty">
+      <h2>Thank you for visiting us!</h2>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="end">
+        <p>POPULAR SEARCHES Online Pet Store | Dog Shop Near Me | Pet Stores | Cat Food | Dog Toys | Cat Toys | Dog Foods | Dog Store Near Me | Dog Food Online | Dog Accessories | Cat Food Online | Best Cat Food | Cat Accessories | Dry Dog Food | Dry Cat Food | Food For Dogs | Puppy Dog Food | Best Dog Food In India | Dog Jerky | Cat Toy | Dog Food | Grooming Dogs | Dog Leashes | Retractable Dog Leash | Dogs Raincoat | Dog Collars | Dog Harnesses | Best Dog Food | Dogs Icecream | Cat Litter Essentials |Cat Litter Accessories | Cat Grooming & Welness | Cat Bandana & Bow Ties | Cat Beds & Mats | Cat Treats | Kitten Food | Dog Treats & Chews | Dog Bowls & Feeder | Dog Treats</p>
+    <form>
+  <div class="mb-3">
+    
+    <label for="exampleInputEmail1" class="form-label">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" style="max-width: 300px;">  
+    <br>
+    <button type="submit" class="btn btn-warning">Log In</button>
+    <br>
+    <br>                      
+    <button type="submit" class="btn btn-warning">Sign In</button>
+  </div>
+  
+</form>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
